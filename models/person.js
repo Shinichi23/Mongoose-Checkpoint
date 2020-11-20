@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const personSchema = new Schema({
   name: {
     type: String,
-    required,
+    required: true,
   },
   age: Number,
   favoriteFood: [String],
